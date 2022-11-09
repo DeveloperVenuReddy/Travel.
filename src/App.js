@@ -1,11 +1,18 @@
-import React from 'react'
-import "./app.css"
+import React from 'react';
+import Navbar from './Components/NavBar/Navbar';
+import Home from './Components/Home/Home';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
+import "./app.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Travel.</h1>
-    </div>
+    <>
+      <Navbar />
+      {/* <Home />
+      <Main />
+      <Footer /> */}
+    </>
   )
 }
 
